@@ -11,6 +11,7 @@ app.use("/auth", require("./routes/auth"));
 app.use("/notes", require("./routes/notes"));
 app.use("/admin", require("./routes/admin"));
 app.use("/users", require("./routes/users"));
+app.use("/posts", require("./routes/posts"));
 app.get("/", (req, res) => res.send("API running"));
 
 mongoose
